@@ -11,6 +11,7 @@
 Here we'll be discussing the definition and practical application of regular expressions or reg ex for short.
 
 **Regular expressions** let us check our code's patterns for characters that match what we are looking for.
+![regexT](regexTutorial.jpg)
 
 Say, if you want to look for emails you'll set a regular experession looking for @ symbols and give it a parameter of having to end in .com, .org, etc.
 
@@ -25,14 +26,23 @@ this is a regular expression that matches an email
 
 It looks like gibberish but we can break the expressions bracketed information into parts and discern what each is looking for in our strings
 
+(each plus sign is concatinating each bracketed phrase, so its adding one specific ask after another)
+
 
 `[a-z0-9_\.-]`
 
-this is looking for characters a through z 
+this is looking for characters a through z and any numbers  **ex(Foxers34)**
 
-`[\da-z\.-]`
-this looks for digit values from 0 through 9 as well as dash marks and periods
+`@([\da-z\.-]`
+this looks for digit values from 0 through 9 as well as dash marks and periods after the @ sign **ex(@spookey)**
 
 `[a-z\.]`
+matches any string value a-z and period **ex(tober.com)**
+
+**Foxers34@spookeytober.com**
+
+
+
+https://github.com/foxrigney
 
 
