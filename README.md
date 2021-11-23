@@ -11,7 +11,7 @@
 Here we'll be discussing the definition and practical application of regular expressions or reg ex for short.
 
 **Regular expressions** let us check our code's patterns for characters that match what we are looking for.
-![regexT](regexTutorial.jpg)
+![regexT](regexTutorial.PNG)
 
 Say, if you want to look for emails you'll set a regular experession looking for @ symbols and give it a parameter of having to end in .com, .org, etc.
 
